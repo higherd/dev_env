@@ -1,0 +1,23 @@
+#
+# normal black red green yellow blue magenta cyan white
+# bold dim ul blink reverse italic strike bright 
+
+[user]
+	email = higherd@mercury.co.kr
+	name = higherd
+
+[color]
+    ui = auto
+[color "branch"]
+    current = yellow reverse
+    local = brightwhite yellow
+    remote = green
+[color "diff"]
+    meta = yellow bold
+    frag = magenta bold
+    old = red bold
+    new = green bold
+[color "status"]
+    added = yellow bold
+    changed = magenta  bold
+    untracked = cyan bold
