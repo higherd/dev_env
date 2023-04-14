@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =2
+let g:netrw_dirhist_2='/home/mercury/.vscode-server/bin/ee2b180d582a7f601fa6ecfdad8d9fd269ab1884/out'
+let g:netrw_dirhist_1='/home/mercury/.vscode-server/bin/ee2b180d582a7f601fa6ecfdad8d9fd269ab1884/node_modules'
+let g:netrw_dirhist_0='/home/mercury/.vscode-server/bin/ee2b180d582a7f601fa6ecfdad8d9fd269ab1884/extensions'
+let g:netrw_dirhist_9='/home/mercury/.vscode-server/bin/ee2b180d582a7f601fa6ecfdad8d9fd269ab1884/bin'
+let g:netrw_dirhist_8='/home/mercury/.config'
+let g:netrw_dirhist_7='/home/mercury/mcr_ws/src/serial/src/impl'
+let g:netrw_dirhist_6='/home/mercury/my_ws/src/ros2_canopen/.github'
+let g:netrw_dirhist_5='/home/mercury/my_ws/src/ros2_canopen/.git'
+let g:netrw_dirhist_4='/home/mercury/mcr_ws/install/zlac8015d/share/zlac8015d/hook'
+let g:netrw_dirhist_3='/home/mercury/mcr_ws/log/build_2023-02-20_15-31-47/mcr_robot'
