@@ -23,6 +23,8 @@ set tabstop=4
 set ruler " 현재 커서 위치 표시
 set incsearch
 set statusline=\ %<%l:%v\ [%P]%=%a\ %h%m%r\ %F\
+set wrap
+set wrapmargin=0
 
 " 마지막으로 수정된 곳에 커서를 위치함
 au BufReadPost *
@@ -44,7 +46,13 @@ endif
 colorscheme onehalfdark
 "colorscheme tender
 "colorscheme tenderplus
+"colorscheme koehler
+colorscheme zellner
 
 " git
 au FileType gitcommit hi gitcommitSummary ctermfg=yellow ctermbg=red
 ":hi gitcommitSummary ctermfg=yellow ctermbg=red
+hi DiffAdd      ctermfg=NONE          ctermbg=Green
+hi DiffChange   ctermfg=NONE          ctermbg=NONE
+hi DiffDelete   ctermfg=LightBlue     ctermbg=Red
+hi DiffText     ctermfg=Yellow        ctermbg=Red
