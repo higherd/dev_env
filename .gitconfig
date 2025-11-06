@@ -13,11 +13,11 @@
     local = brightwhite yellow
     remote = green
 [color "diff"]
-    meta = yellow bold
+	meta = yellow brightblack bold
     frag = magenta bold
     old = red bold
     new = green bold
 [color "status"]
-    added = yellow bold
-    changed = magenta  bold
+	added = yellow brightblack bold
+	changed = magenta bold
     untracked = cyan bold
